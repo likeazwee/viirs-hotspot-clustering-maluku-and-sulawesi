@@ -17,14 +17,14 @@ Dengan pendekatan *unsupervised learning* (K-Means), titik-titik api yang berdek
 ```
 viirs-hotspot-clustering-maluku-and-sulawesi/
 ├── Dataset/
-│   └── indonesia-viirs-dataset.csv   # Dataset
+│   └── indonesia-viirs-dataset.csv        # Dataset VIIRS Indonesia
 ├── script/
-│   └── Clustering_Data_VIIRS.ipynb   # Notebook utama analisis
+│   └── Clustering_Data_VIIRS.ipynb        # Notebook utama analisis
 ├── images/
-│   ├── hasil-clustering.png          # Visualisasi hasil 4 klaster
-│   └── inertia.png                   # Grafik Elbow Method
+│   ├── hasil-clustering.png               # Visualisasi hasil 4 klaster
+│   └── inertia.png                        # Grafik Elbow Method
+├── Hasil_Clustering_VIIRS_SulMal.csv      # Output hasil klasterisasi
 └── README.md
-└── Hasil_Clustering_VIIRS_SulMal.csv # Hasil Clustering
 ```
 
 ---
@@ -34,9 +34,11 @@ viirs-hotspot-clustering-maluku-and-sulawesi/
 | Properti | Detail |
 |---|---|
 | **Sumber** | NASA FIRMS — VIIRS Suomi-NPP |
+| **File** | `Dataset/indonesia-viirs-dataset.csv` |
 | **Format** | CSV |
 | **Rentang Waktu** | 2015 – 2025 |
-| **Wilayah** | Indonesia |
+| **Wilayah Dipilih** | Indonesia |
+| **Wilayah Dipilih** | Sulawesi & Maluku |
 | **Bounding Box** | Lat: `-8.5` s/d `3.0`, Lon: `118.0` s/d `135.0` |
 | **Fitur yang Digunakan** | `latitude`, `longitude` |
 
