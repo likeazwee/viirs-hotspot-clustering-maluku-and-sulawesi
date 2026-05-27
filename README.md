@@ -24,6 +24,7 @@ viirs-hotspot-clustering-maluku-and-sulawesi/
 │   ├── hasil-clustering.png          # Visualisasi hasil 4 klaster
 │   └── inertia.png                   # Grafik Elbow Method
 └── README.md
+└── Hasil_Clustering_VIIRS_SulMal.csv # Hasil Clustering
 ```
 
 ---
